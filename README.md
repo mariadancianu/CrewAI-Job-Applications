@@ -1,54 +1,48 @@
 # JobApplications Crew
 
-Welcome to the JobApplications Crew project, powered by [crewAI](https://crewai.com). This template is designed to help you set up a multi-agent AI system with ease, leveraging the powerful and flexible framework provided by crewAI. Our goal is to enable your agents to collaborate effectively on complex tasks, maximizing their collective intelligence and capabilities.
+This project explores basic agentic AI workflows using [CrewAI](https://crewai.com as a hands-on learning experiment. It leverages CrewAI to automate job searching by scraping job opportunities from LinkedIn, generating personalized cover letters, and submitting applications.
 
-## Installation
 
-Ensure you have Python >=3.10 <3.13 installed on your system. This project uses [UV](https://docs.astral.sh/uv/) for dependency management and package handling, offering a seamless setup and execution experience.
+## 🛠️ Tech Stack
 
-First, if you haven't already, install uv:
+- Python (3.12+ recommended)
+- CrewAI
+- OpenAI API
+- [AccuWeather API](https://developer.accuweather.com/) (or any weather API of choice)
 
-```bash
-pip install uv
-```
 
-Next, navigate to your project directory and install the dependencies:
+## Details
 
-(Optional) Lock the dependencies and install them by using the CLI command:
-```bash
-crewai install
-```
-### Customizing
+Key Components:
 
-**Add your `OPENAI_API_KEY` into the `.env` file**
+    src/job_applications/main.py:
+    -> Main script file.
 
-- Modify `src/job_applications/config/agents.yaml` to define your agents
-- Modify `src/job_applications/config/tasks.yaml` to define your tasks
-- Modify `src/job_applications/crew.py` to add your own logic, tools and specific args
-- Modify `src/job_applications/main.py` to add custom inputs for your agents and tasks
 
-## Running the Project
+    src/job_applications/crew.py:
+    -> Main crew file where agents and tasks come together, and the main logic is executed.
 
-To kickstart your crew of AI agents and begin task execution, run this from the root folder of your project:
 
-```bash
-$ crewai run
-```
+    src/job_applications/config/agents.yaml:
+    -> Configuration file for defining agents.
 
-This command initializes the job-applications Crew, assembling the agents and assigning them tasks as defined in your configuration.
 
-This example, unmodified, will run the create a `report.md` file with the output of a research on LLMs in the root folder.
+    src/job_applications/config/tasks.yaml:
+    -> Configuration file for defining tasks.
 
-## Understanding Your Crew
+Upon running the main.py script, the following results are saved:
 
-The job-applications Crew is composed of multiple AI agents, each with unique roles, goals, and tools. These agents collaborate on a series of tasks, defined in `config/tasks.yaml`, leveraging their collective skills to achieve complex objectives. The `config/agents.yaml` file outlines the capabilities and configurations of each agent in your crew.
+    src/job_applications/results/job_opportunities.md:
+    -> A structured summary of 20 job opportunities in line with the job title, including the job title, the location, the responsibilities, the salary if available, etc. 
 
-## Support
 
-For support, questions, or feedback regarding the JobApplications Crew or crewAI.
-- Visit our [documentation](https://docs.crewai.com)
-- Reach out to us through our [GitHub repository](https://github.com/joaomdmoura/crewai)
-- [Join our Discord](https://discord.com/invite/X4JWnZnxPb)
-- [Chat with our docs](https://chatg.pt/DWjSBZn)
+## 🔄 Status
 
-Let's create wonders together with the power and simplicity of crewAI.
+Project is: In Progress
+
+
+#
+
+📝 Author: Maria Dancianu
+
+📅 Last Updated: March 2025

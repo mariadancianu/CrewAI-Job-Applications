@@ -1,7 +1,8 @@
 get_jobs_task:
   description: >
-    Research job opportunities for the job title {title} and location {location} 
-    Utilize internet search tools and recommendation engines to gather the information.
+    Research job opportunities for the job title {title} and location {location}. Do not include job opportunities
+    that do not accept applications anymore. 
+    Utilize internet search tools and recommendation engines to gather the information. 
     Utilize only www.linkedin.com.
 # and posted less than {posted}.
   expected_output: >
