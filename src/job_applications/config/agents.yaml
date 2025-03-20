@@ -25,3 +25,12 @@ filter_job_opportunities:
   backstory: >
     A data analyst who has transitioned into HR, you have a knack for organizing and interpreting job data.
   llm: openai/gpt-4o-mini
+
+apply_job_opportunities:
+  role: >
+    Job Application
+  goal: >
+    Submit job applications.
+  backstory: >
+    A data scientist searching for a job and submitting job applications.
+  llm: openai/gpt-4o-mini

@@ -13,7 +13,7 @@ warnings.filterwarnings("ignore", category=SyntaxWarning, module="pysbd")
 
 def run():
     """
-    Run the weather forecast crew.
+    Run the job application crew.
     """
 
     inputs = {
@@ -22,6 +22,8 @@ def run():
         "path_to_cover_letter": "results/sample_cover_letter.md",
         "path_to_job_opportuntities": "results/job_opportunities.md",
         "path_to_submitted_applications": "results/submitted_applications.csv",
+        "path_to_filtered_jobs": "results/filtered_jobs.md",
+        "path_to_curriculum_vitae": "results/CV_MariaDancianu_updated.pdf",
         #"posted": "1 week ago"
         #"remote": "hybrid or remote"
     }

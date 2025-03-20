@@ -29,8 +29,6 @@ class JobApplicationsCrew:
                 SerperDevTool(),  # search the internet and return the most relevant results.
                 ScrapeWebsiteTool(),
             ],
-            #tools=linkedin_scraper
-            # allow_delegation=False,
         )
     @agent
     def cover_letter_customizer(self) -> Agent:
@@ -44,8 +42,6 @@ class JobApplicationsCrew:
             tools=[
                 FileReadTool(), 
             ],
-            #tools=linkedin_scraper
-            # allow_delegation=False,
         )
     @agent
     def filter_job_opportunities(self) -> Agent:
@@ -59,9 +55,23 @@ class JobApplicationsCrew:
             tools=[
                 FileReadTool(), 
             ],
-            human_input=True
-            #tools=linkedin_scraper
-            # allow_delegation=False,
+            allow_delegation=True,
+
+        )
+    @agent
+    def apply_job_opportunities(self) -> Agent:
+        """
+        Creates the Apply job opportunities agent.
+        """
+        return Agent(
+            config=self.agents_config["apply_job_opportunities"],
+            verbose=True,
+            max_iter=3,  # Maximum iterations before the agent must provide its best answer. Default is 20.
+            tools=[
+                FileReadTool(), 
+                ScrapeWebsiteTool(), # is this agent useful for scraping websites?
+            ],
+            allow_delegation=True,
         )
 
     @task
@@ -91,6 +101,16 @@ class JobApplicationsCrew:
         return Task(
             config=self.tasks_config["filter_jobs_task"],
             output_file="/results/filtered_jobs.md",
+            human_input=True
+        )
+    @task
+    def apply_to_jobs_task(self) -> Task:
+        """
+        Creates the apply_to_jobs_task.
+        """
+        return Task(
+            config=self.tasks_config["apply_to_jobs_task"],
+            human_input=True
         )
 
     @crew

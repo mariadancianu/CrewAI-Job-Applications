@@ -31,7 +31,20 @@ filter_jobs_task:
     Job opportunities file: {path_to_job_opportuntities}
     Submitted job opportunities file: {path_to_submitted_applications}
   expected_output: >
-    The same structure as the job opportunities but keeping only the job titles with the corresponding company name 
-    and whether the job opportunities should be kept or discarded. In case of discarded jobs specify also the motivation.
+    The same structure as the job opportunities but keeping only the job titles with the corresponding company name, 
+    the link to the job opportunity, whether an application was already submitted to the company, and whether the human 
+    decided to keep the job opportunity.
   agent: filter_job_opportunities
 
+apply_to_jobs_task:
+  description: >
+    Apply to the job opportunity for which an application was not already submitted and for which the human input
+    confirmed the job opportunity. Ask a human for confirmation before submitting the application.
+    You can read the curriculum vitae for the application.
+    
+    Filtered job opportunities file: {path_to_filtered_jobs}
+    Curriculum Vitae: {path_to_curriculum_vitae}
+  expected_output: >
+    Update the {submitted_applications.csv} with the successful job applications.
+  agent: apply_job_opportunities
+  
