@@ -1,6 +1,6 @@
 # JobApplications Crew
 
-This project explores basic agentic AI workflows using [CrewAI](https://crewai.com as a hands-on learning experiment. It leverages CrewAI to automate job searching by scraping job opportunities from LinkedIn, generating personalized cover letters, and submitting applications.
+This project explores basic agentic AI workflows using [CrewAI](https://crewai.com) as a hands-on learning experiment. It leverages CrewAI to automate job searching by scraping job opportunities from LinkedIn, generating personalized cover letters, and submitting applications.
 
 
 ## 🛠️ Tech Stack
@@ -8,7 +8,6 @@ This project explores basic agentic AI workflows using [CrewAI](https://crewai.c
 - Python (3.12+ recommended)
 - CrewAI
 - OpenAI API
-- [AccuWeather API](https://developer.accuweather.com/) (or any weather API of choice)
 
 
 ## Details
