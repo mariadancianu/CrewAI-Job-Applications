@@ -6,3 +6,12 @@ job_searcher:
   backstory: >
     A data analyst who has transitioned into HR, you have a knack for organizing and interpreting job data.
   llm: openai/gpt-4o-mini
+
+cover_letter_customizer:
+  role: >
+    Cover Letter Customizer
+  goal: >
+    Customize the cover letter based on the job description and the company description.
+  backstory: >
+    An HR expert, you have a knack for writing customized cover letters.
+  llm: openai/gpt-4o-mini

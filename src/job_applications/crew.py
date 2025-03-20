@@ -1,19 +1,17 @@
 """
-Creates the crew of agents and tasks for the weather forecasting system,
+Creates the crew of agents and tasks for the job applications system,
 with the provided tools and configurations.
 """
 
 from crewai import Agent, Crew, Process, Task
 from crewai.project import CrewBase, agent, crew, task
 from crewai_tools import ScrapeWebsiteTool, SerperDevTool
+from crewai_tools import FileReadTool
 
-# Initialize the tool with the website URL, 
-# so the agent can only scrap the content of the specified website
-#linkedin_scraper = ScrapeWebsiteTool(website_url='https://www.linkedin.com')
 
 @CrewBase
 class JobApplicationsCrew:
-    """WeatherCrew crew"""
+    """JobApplications crew"""
 
     agents_config = "config/agents.yaml"
     tasks_config = "config/tasks.yaml"
@@ -21,7 +19,7 @@ class JobApplicationsCrew:
     @agent
     def job_searcher(self) -> Agent:
         """
-        Creates the Activities Searcher agent.
+        Creates the Job Searcher agent. 
         """
         return Agent(
             config=self.agents_config["job_searcher"],
@@ -30,6 +28,21 @@ class JobApplicationsCrew:
             tools=[
                 SerperDevTool(),  # search the internet and return the most relevant results.
                 ScrapeWebsiteTool(),
+            ],
+            #tools=linkedin_scraper
+            # allow_delegation=False,
+        )
+    @agent
+    def cover_letter_customizer(self) -> Agent:
+        """
+        Creates the Activities Searcher agent.
+        """
+        return Agent(
+            config=self.agents_config["cover_letter_customizer"],
+            verbose=True,
+            max_iter=3,  # Maximum iterations before the agent must provide its best answer. Default is 20.
+            tools=[
+                FileReadTool(), 
             ],
             #tools=linkedin_scraper
             # allow_delegation=False,
@@ -43,6 +56,16 @@ class JobApplicationsCrew:
         return Task(
             config=self.tasks_config["get_jobs_task"],
             output_file="/results/job_opportunities.md",
+        )
+
+    @task
+    def customize_cover_letter_task(self) -> Task:
+        """
+        Creates the activities_suggestion task.
+        """
+        return Task(
+            config=self.tasks_config["customize_cover_letter_task"],
+            output_file="/results/customized_cover_letters.md",
         )
 
     @crew

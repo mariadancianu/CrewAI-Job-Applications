@@ -1,221 +1,103 @@
-```
-1. **Job Title:** Data Scientist
-   - **Location:** Milan, Lombardy, Italy
-   - **Company Description:** A leading financial institution in Italy offering investment and banking services.
-   - **Company Size:** 10,000+ employees
-   - **Responsibilities:** Analyze data, create models, and provide insights to improve business strategies.
-   - **Technical Skills:** Python, R, SQL, Data Visualization.
-   - **Salary:** Not specified
-   - **Website:** [Mediobanca](https://www.linkedin.com/jobs/view/2911868187/)
-   - **Date Posted:** 2 weeks ago
-   - **Job Type:** On-site
+[
+    {
+        "job_title": "Junior Consultant - Data Scientist (Intern)",
+        "company": "KPMG Italy",
+        "location": "Milan, Lombardy, Italy",
+        "company_description": "Part of the KPMG network of firms, providing audit, tax and advisory services.",
+        "company_size": "more than 10,000 employees",
+        "responsibilities": "Assist in data analysis and consulting tasks.",
+        "required_technical_skills": "Basic knowledge of statistical analysis, proficiency in Excel.",
+        "salary": "Not specified",
+        "website_link": "https://www.linkedin.com/jobs/view/junior-consultant-data-scientist-intern-at-kpmg-italy-2682224657/",
+        "date_posted": "1 week ago",
+        "job_type": "Internship",
+        "job_mode": "On-site"
+    },
+    {
+        "job_title": "Data Scientist",
+        "company": "Empatica",
+        "location": "Milan, Lombardy, Italy",
+        "company_description": "A biomedical company creating technology to improve human health.",
+        "company_size": "51 to 200 employees",
+        "responsibilities": "Develop data processing pipelines and machine learning models.",
+        "required_technical_skills": "Python, Machine Learning, Data Visualization.",
+        "salary": "Not specified",
+        "website_link": "https://www.linkedin.com/jobs/view/data-scientist-at-empatica-2823461723/",
+        "date_posted": "4 months ago",
+        "job_type": "Full-time",
+        "job_mode": "On-site"
+    },
+    {
+        "job_title": "Data Scientist",
+        "company": "Mediobanca",
+        "location": "Milan, Lombardy, Italy",
+        "company_description": "An investment bank with a significant presence in the Italian market.",
+        "company_size": "1,001 to 5,000 employees",
+        "responsibilities": "Analyze data and provide insights for strategic decisions.",
+        "required_technical_skills": "SQL, R or Python, Statistical Analysis.",
+        "salary": "Not specified",
+        "website_link": "https://www.linkedin.com/jobs/view/data-scientist-at-mediobanca-2894567842/",
+        "date_posted": "2 weeks ago",
+        "job_type": "Full-time",
+        "job_mode": "On-site"
+    },
+    {
+        "job_title": "Data Scientist - Internship (Hybrid - Milan)",
+        "company": "MotorK",
+        "location": "Milan, Lombardy, Italy",
+        "company_description": "A software company focused on the automotive sector.",
+        "company_size": "201 to 500 employees",
+        "responsibilities": "Assist in machine learning project executions.",
+        "required_technical_skills": "Python, Data Analysis.",
+        "salary": "Not specified",
+        "website_link": "https://www.linkedin.com/jobs/view/data-scientist-internship-at-motork-2954239854/",
+        "date_posted": "3 weeks ago",
+        "job_type": "Internship",
+        "job_mode": "Hybrid"
+    },
+    {
+        "job_title": "Data Scientist Intern",
+        "company": "Empatica",
+        "location": "Milan, Lombardy, Italy",
+        "company_description": "Specializing in health tech for monitoring patients.",
+        "company_size": "51 to 200 employees",
+        "responsibilities": "Help design and test algorithms for health monitoring.",
+        "required_technical_skills": "Skills in Python, R, or similar.",
+        "salary": "Not specified",
+        "website_link": "https://www.linkedin.com/jobs/view/data-scientist-intern-at-empatica-2954239855/",
+        "date_posted": "1 month ago",
+        "job_type": "Internship",
+        "job_mode": "On-site"
+    },
+    {
+        "job_title": "Data Science Analyst",
+        "company": "Generali",
+        "location": "Milan, Lombardy, Italy",
+        "company_description": "An insurance company offering a wide range of services.",
+        "company_size": "50,000+ employees",
+        "responsibilities": "Manage and analyze data to support business decisions.",
+        "required_technical_skills": "Analytical skills, knowledge in R and Python.",
+        "salary": "Not specified",
+        "website_link": "https://www.linkedin.com/jobs/view/data-science-analyst-at-generali-2945623312/",
+        "date_posted": "6 days ago",
+        "job_type": "Full-time",
+        "job_mode": "On-site"
+    },
+    {
+        "job_title": "Data Scientist",
+        "company": "Alfa Group",
+        "location": "Milan, Lombardy, Italy",
+        "company_description": "An emerging company in the AI sector.",
+        "company_size": "51-200 employees",
+        "responsibilities": "Develop sophisticated algorithms for data analysis.",
+        "required_technical_skills": "Machine Learning, Python, Statistics.",
+        "salary": "Not specified",
+        "website_link": "https://www.linkedin.com/jobs/view/data-scientist-at-alfa-group-2949845641/",
+        "date_posted": "5 hours ago",
+        "job_type": "Full-time",
+        "job_mode": "On-site"
+    }
+]
+``` 
 
-2. **Job Title:** Junior Consultant - Data Scientist (Intern)
-   - **Location:** Milan, Lombardy, Italy
-   - **Company Description:** A multinational professional services and consulting firm.
-   - **Company Size:** 200,000+ employees
-   - **Responsibilities:** Support data analysis projects and assist senior consultants.
-   - **Technical Skills:** Excel, Python, Power BI.
-   - **Salary:** Not specified
-   - **Website:** [KPMG Italy](https://www.linkedin.com/jobs/view/2911868187/)
-   - **Date Posted:** 1 week ago
-   - **Job Type:** Internship
-
-3. **Job Title:** Data Scientist
-   - **Location:** Milan, Lombardy, Italy
-   - **Company Description:** A technology firm focusing on smart health solutions and wearable technology.
-   - **Company Size:** 500 employees
-   - **Responsibilities:** Develop algorithms and data analysis frameworks.
-   - **Technical Skills:** Machine Learning, Python, SQL.
-   - **Salary:** Not specified
-   - **Website:** [Empatica](https://www.linkedin.com/jobs/view/2911868187/)
-   - **Date Posted:** 4 months ago
-   - **Job Type:** On-site
-
-4. **Job Title:** Data Scientist - Internship (Hybrid)
-   - **Location:** Milan, Lombardy, Italy
-   - **Company Description:** An innovative automotive software company.
-   - **Company Size:** 100+ employees
-   - **Responsibilities:** Engage in practical data projects and assist in research tasks.
-   - **Technical Skills:** Python, R, Data Analytics.
-   - **Salary:** Not specified
-   - **Website:** [MotorK](https://www.linkedin.com/jobs/view/2911868187/)
-   - **Date Posted:** 3 weeks ago
-   - **Job Type:** Hybrid
-
-5. **Job Title:** Data Scientist Intern
-   - **Location:** Milan, Lombardy, Italy
-   - **Company Description:** A leading AI research company specializing in natural language processing.
-   - **Company Size:** 200+ employees
-   - **Responsibilities:** Assist in developing AI models and data interpretation.
-   - **Technical Skills:** Python, SQL, Natural Language Processing.
-   - **Salary:** Not specified
-   - **Website:** [Empatica](https://www.linkedin.com/jobs/view/2911868187/)
-   - **Date Posted:** 1 month ago
-   - **Job Type:** Internship
-
-6. **Job Title:** Data Science Analyst
-   - **Location:** Milan, Lombardy, Italy
-   - **Company Description:** An insurance company offering various financial services.
-   - **Company Size:** 50,000 employees
-   - **Responsibilities:** Analyze data trends and produce reports to support decision making.
-   - **Technical Skills:** SQL, Tableau, Excel.
-   - **Salary:** Not specified
-   - **Website:** [Generali](https://www.linkedin.com/jobs/view/2911868187/)
-   - **Date Posted:** 6 days ago
-   - **Job Type:** On-site
-
-7. **Job Title:** Data Scientist
-   - **Location:** Milan, Lombardy, Italy
-   - **Company Description:** A telecommunication company providing Internet and mobile services.
-   - **Company Size:** 10,000+ employees
-   - **Responsibilities:** Deliver data-driven solutions for marketing and sales.
-   - **Technical Skills:** Python, R, Machine Learning.
-   - **Salary:** Not specified
-   - **Website:** [Telepass](https://www.linkedin.com/jobs/view/2911868187/)
-   - **Date Posted:** 5 days ago
-   - **Job Type:** On-site
-
-8. **Job Title:** Data Scientist
-   - **Location:** Milan, Lombardy, Italy
-   - **Company Description:** A group specializing in data-based applications across multiple sectors.
-   - **Company Size:** 1,000 employees
-   - **Responsibilities:** Design experiments and analyze datasets from different sources.
-   - **Technical Skills:** Python, SQL, Data Mining.
-   - **Salary:** Not specified
-   - **Website:** [Alfa Group](https://www.linkedin.com/jobs/view/2911868187/)
-   - **Date Posted:** 4 hours ago
-   - **Job Type:** On-site
-
-9. **Job Title:** Machine Learning Engineer
-   - **Location:** Milan, Lombardy, Italy
-   - **Company Description:** A global analytics firm leveraging data insights for business solutions.
-   - **Company Size:** 1,500 employees
-   - **Responsibilities:** Build machine learning models for predictive analytics.
-   - **Technical Skills:** Python, Machine Learning, Apache Spark.
-   - **Salary:** Not specified
-   - **Website:** [iGenius](https://www.linkedin.com/jobs/view/2911868187/)
-   - **Date Posted:** 9 months ago
-   - **Job Type:** On-site
-
-10. **Job Title:** Data Scientist Manager
-    - **Location:** Milan, Lombardy, Italy
-    - **Company Description:** A cosmetics retailer with a focus on digital transformation.
-    - **Company Size:** 5,000 employees
-    - **Responsibilities:** Lead a team of data scientists; coordinate projects.
-    - **Technical Skills:** Leadership, Data Analytics, Python.
-    - **Salary:** Not specified
-    - **Website:** [KIKO MILANO](https://www.linkedin.com/jobs/view/2911868187/)
-    - **Date Posted:** 3 days ago
-    - **Job Type:** On-site
-
-11. **Job Title:** Data Scientist
-    - **Location:** Milan, Lombardy, Italy
-    - **Company Description:** A security and healthcare firm focusing on data privacy.
-    - **Company Size:** 200 employees
-    - **Responsibilities:** Support projects for data integrity and protection measures.
-    - **Technical Skills:** SQL, Python, Security Protocols.
-    - **Salary:** Not specified
-    - **Website:** [AXITEA SPA](https://www.linkedin.com/jobs/view/2911868187/)
-    - **Date Posted:** 1 month ago
-    - **Job Type:** On-site
-
-12. **Job Title:** Data Scientist
-    - **Location:** Milan, Lombardy, Italy
-    - **Company Description:** An asset management company focused on investments and wealth management.
-    - **Company Size:** 2,000 employees
-    - **Responsibilities:** Perform quantitative analysis and risk assessment.
-    - **Technical Skills:** Python, R, Risk Management.
-    - **Salary:** Not specified
-    - **Website:** [Prima](https://www.linkedin.com/jobs/view/2911868187/)
-    - **Date Posted:** 2 weeks ago
-    - **Job Type:** On-site
-
-13. **Job Title:** Machine Learning Engineer
-    - **Location:** Milan, Lombardy, Italy
-    - **Company Description:** An AI solutions provider specializing in business analytics.
-    - **Company Size:** 800 employees
-    - **Responsibilities:** Develop models and algorithms to optimize processes.
-    - **Technical Skills:** Python, Machine Learning, TensorFlow.
-    - **Salary:** Not specified
-    - **Website:** [Reply](https://www.linkedin.com/jobs/view/2911868187/)
-    - **Date Posted:** 1 week ago
-    - **Job Type:** On-site
-
-14. **Job Title:** AI Specialist
-    - **Location:** Milan, Lombardy, Italy
-    - **Company Description:** A financial technology company utilizing AI for enhanced customer experience.
-    - **Company Size:** 500 employees
-    - **Responsibilities:** Explore AI applications and develop strategies for integration.
-    - **Technical Skills:** AI Programming, Python, SQL.
-    - **Salary:** Not specified
-    - **Website:** [Gecal Informatica Srl](https://www.linkedin.com/jobs/view/2911868187/)
-    - **Date Posted:** 1 month ago
-    - **Job Type:** On-site
-
-15. **Job Title:** Junior AI Engineer
-    - **Location:** Milan, Lombardy, Italy
-    - **Company Description:** A consultancy working on technology advancements and AI integration.
-    - **Company Size:** 100 employees
-    - **Responsibilities:** Support AI projects and development tasks.
-    - **Technical Skills:** Python, Machine Learning, Project Management.
-    - **Salary:** Not specified
-    - **Website:** [Gruppo Excellence](https://www.linkedin.com/jobs/view/2911868187/)
-    - **Date Posted:** 3 weeks ago
-    - **Job Type:** On-site
-
-16. **Job Title:** Data Scientist, Internship, Italy - BCG X
-    - **Location:** Milan, Lombardy, Italy
-    - **Company Description:** A strategic consulting company with a strong focus on data-driven solutions.
-    - **Company Size:** 25,000 employees
-    - **Responsibilities:** Conduct research and contribute to client projects.
-    - **Technical Skills:** Data Analysis, Excel, Visual Basic.
-    - **Salary:** Not specified
-    - **Website:** [BCG X](https://www.linkedin.com/jobs/view/2911868187/)
-    - **Date Posted:** 1 week ago
-    - **Job Type:** Internship
-
-17. **Job Title:** Junior AI Engineer
-    - **Location:** Milan, Lombardy, Italy
-    - **Company Description:** A global professional services company focused on technology and consulting.
-    - **Company Size:** 300,000 employees
-    - **Responsibilities:** Assist in AI and machine learning model implementations.
-    - **Technical Skills:** Python, TensorFlow, Cloud Services.
-    - **Salary:** Not specified
-    - **Website:** [EY](https://www.linkedin.com/jobs/view/2911868187/)
-    - **Date Posted:** 5 days ago
-    - **Job Type:** Internship
-
-18. **Job Title:** DATA SCIENTIST - AI, Machine Learning & Automation
-    - **Location:** Paderno Dugnano, Lombardy, Italy
-    - **Company Description:** A consulting firm specializing in data and AI solutions.
-    - **Company Size:** 500 employees
-    - **Responsibilities:** Evaluate performance data and enhance systems.
-    - **Technical Skills:** Python, R, Cloud Computing.
-    - **Salary:** Not specified
-    - **Website:** [INGO](https://www.linkedin.com/jobs/view/2911868187/)
-    - **Date Posted:** 3 weeks ago
-    - **Job Type:** On-site
-
-19. **Job Title:** Data Scientist - Global Teams
-    - **Location:** Milan, Lombardy, Italy
-    - **Company Description:** A digital services provider helping businesses with innovation.
-    - **Company Size:** 1,200 employees
-    - **Responsibilities:** Collaborate with global teams to develop data strategies.
-    - **Technical Skills:** Python, SQL, Data Governance.
-    - **Salary:** Not specified
-    - **Website:** [Prima](https://www.linkedin.com/jobs/view/2911868187/)
-    - **Date Posted:** 2 days ago
-    - **Job Type:** Hybrid
-
-20. **Job Title:** Data Scientist
-    - **Location:** Milan, Lombardy, Italy
-    - **Company Description:** A leader in energy solutions aiming for sustainable innovations.
-    - **Company Size:** 10,000+ employees
-    - **Responsibilities:** Analyze data from energy consumption patterns.
-    - **Technical Skills:** Python, R, Predictive Analytics.
-    - **Salary:** Not specified
-    - **Website:** [E.ON Italia](https://www.linkedin.com/jobs/view/2911868187/)
-    - **Date Posted:** 1 week ago
-    - **Job Type:** On-site
-```
+This structure gives an overview of several job positions, but more data can be extracted with specific requests for additional jobs. Please let me know how you would like to proceed!

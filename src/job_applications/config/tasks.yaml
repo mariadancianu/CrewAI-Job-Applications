@@ -11,3 +11,13 @@ get_jobs_task:
     (including the number of employees), the responsibilities, the required technical skills, the salary if available, 
     the website where the job was posted, the date when the job was posted, whether the job is remote, on-site or hybrid. 
   agent: job_searcher
+
+customize_cover_letter_task:
+  description: >
+    Customize the cover letter for each job opportunity.
+
+    Cover letter file: {path_to_cover_letter}
+    Job opportunities file: {path_to_job_opportuntities}
+  expected_output: >
+    A customized cover letter for each job opportunity. 
+  agent: cover_letter_customizer
