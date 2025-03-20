@@ -1,0 +1,12 @@
+get_jobs_task:
+  description: >
+    Research job opportunities for the job title {title} and location {location} 
+    Utilize internet search tools and recommendation engines to gather the information.
+    Utilize only www.linkedin.com.
+# and posted less than {posted}.
+  expected_output: >
+    A structured summary of 20 job opportunities in line with the job title. 
+    Each entry should include the job title, location, a description of the company, the size of the company 
+    (including the number of employees), the responsibilities, the required technical skills, the salary if available, 
+    the website where the job was posted, the date when the job was posted, whether the job is remote, on-site or hybrid. 
+  agent: job_searcher
