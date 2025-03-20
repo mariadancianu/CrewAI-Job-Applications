@@ -35,7 +35,7 @@ class JobApplicationsCrew:
     @agent
     def cover_letter_customizer(self) -> Agent:
         """
-        Creates the Activities Searcher agent.
+        Creates the Cover Letter customization agent.
         """
         return Agent(
             config=self.agents_config["cover_letter_customizer"],
@@ -47,11 +47,27 @@ class JobApplicationsCrew:
             #tools=linkedin_scraper
             # allow_delegation=False,
         )
+    @agent
+    def filter_job_opportunities(self) -> Agent:
+        """
+        Creates the Filter job opportunities agent.
+        """
+        return Agent(
+            config=self.agents_config["filter_job_opportunities"],
+            verbose=True,
+            max_iter=3,  # Maximum iterations before the agent must provide its best answer. Default is 20.
+            tools=[
+                FileReadTool(), 
+            ],
+            human_input=True
+            #tools=linkedin_scraper
+            # allow_delegation=False,
+        )
 
     @task
     def get_jobs_task(self) -> Task:
         """
-        Creates the activities_suggestion task.
+        Creates the get_jobs task.
         """
         return Task(
             config=self.tasks_config["get_jobs_task"],
@@ -61,11 +77,20 @@ class JobApplicationsCrew:
     @task
     def customize_cover_letter_task(self) -> Task:
         """
-        Creates the activities_suggestion task.
+        Creates the customize_cover_letter task.
         """
         return Task(
             config=self.tasks_config["customize_cover_letter_task"],
             output_file="/results/customized_cover_letters.md",
+        )
+    @task
+    def filter_jobs_task(self) -> Task:
+        """
+        Creates the customize_cover_letter task.
+        """
+        return Task(
+            config=self.tasks_config["filter_jobs_task"],
+            output_file="/results/filtered_jobs.md",
         )
 
     @crew

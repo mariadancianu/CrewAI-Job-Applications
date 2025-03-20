@@ -21,3 +21,17 @@ customize_cover_letter_task:
   expected_output: >
     A customized cover letter for each job opportunity. 
   agent: cover_letter_customizer
+
+filter_jobs_task:
+  description: >
+    Filter the job opportunities to make sure that a job application was not previously submitted
+    to the company. Also filter the job opportunities based on human input. Ask a human which job 
+    opportunities to keep. 
+    
+    Job opportunities file: {path_to_job_opportuntities}
+    Submitted job opportunities file: {path_to_submitted_applications}
+  expected_output: >
+    The same structure as the job opportunities but keeping only the job titles with the corresponding company name 
+    and whether the job opportunities should be kept or discarded. In case of discarded jobs specify also the motivation.
+  agent: filter_job_opportunities
+

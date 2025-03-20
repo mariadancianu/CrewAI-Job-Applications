@@ -21,6 +21,7 @@ def run():
         "location": "Milan, Lombardy, Italy",
         "path_to_cover_letter": "results/sample_cover_letter.md",
         "path_to_job_opportuntities": "results/job_opportunities.md",
+        "path_to_submitted_applications": "results/submitted_applications.csv",
         #"posted": "1 week ago"
         #"remote": "hybrid or remote"
     }

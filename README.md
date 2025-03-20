@@ -1,7 +1,10 @@
-# JobApplications Crew
+# Job Applications with Agentic AI
 
-This project explores basic agentic AI workflows using [CrewAI](https://crewai.com) as a hands-on learning experiment. It leverages CrewAI to automate job searching by scraping job opportunities from LinkedIn, generating personalized cover letters, and submitting applications.
+![JobApplications Crew](images/img.png)
 
+This project explores basic agentic AI workflows using [CrewAI](https://crewai.com) as a hands-on learning experiment. It leverages CrewAI to automate job searching by scraping job opportunities from LinkedIn, generating personalized cover letters, and submitting applications. Additionally, it incorporates human-in-the-loop Agents to confirm with the user which jobs to apply to and whether the generated cover letter is suitable before submission. 
+
+For demonstration purposes, I included only a small portion of the cover letter in this project instead of the full version.
 
 ## 🛠️ Tech Stack
 
